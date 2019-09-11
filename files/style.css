@@ -1,0 +1,239 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.pgi-logo
+{
+	width:80px;
+}
+.wrapper
+{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height:100vh;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.select-mon
+{
+	font-size:25px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	margin:30px;
+}
+.months
+{
+	display:flex;
+}
+.month-con
+{
+	width:80%;
+	margin:auto;
+}
+.mon
+{
+	flex:1;
+	text-align:center;
+}
+.mon p
+{
+	font-size:25px;
+	background:black;
+	color:white;
+	margin:10px;
+	padding:5px 0;
+	cursor:pointer;
+}
+.mon p:active,.confirm-btn:active
+{
+	transform:scale(.99);
+}
+.confirm-mon
+{
+	text-align:center;
+	font-size:25px;
+	color:white;
+	text-transform:uppercase;
+	margin:20px;
+	display:none;
+}
+#confirm-mon
+{
+	display:inline-block;
+}
+.day28-29,.faltu
+{
+	text-align:center;
+	margin:15px;
+}
+.day28-29
+{
+	display:none;
+}
+.day28,.day29
+{
+	background:black;
+	color:white;
+	padding:5px;
+	cursor:pointer;
+}
+.day-active
+{
+	background:white;
+	color:black;
+}
+.confirm-btn
+{
+	text-align:center;
+	border:none;
+	font-size:15px;
+	background:black;
+	color:white;
+	padding:5px;
+	cursor:pointer;
+	font-family: 'Poppins', sans-serif;
+	border-radius:25px;
+	display:none
+}
+.confirm-btn:hover
+{
+	background:white;
+	color:black;
+}
+.confirm-btn:focus
+{
+	outline:none;
+}
+.head
+{
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.add-table
+{
+	width:50px;
+	height:50px;
+	background:black;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	border-radius:50%;
+	cursor:pointer;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	margin:auto;
+	display:none;
+}
+.remove-table
+{
+	width:50px;
+	height:50px;
+	background:black;
+	position:fixed;
+	bottom:20px;
+	right:80px;
+	border-radius:50%;
+	cursor:pointer;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	margin:auto;
+	display:none;
+}
+.cross1
+{
+	transform:rotate(90deg);
+	width:35px;
+	height:3px;
+	background:white;
+	margin:auto;
+	position:relative;
+	top:23px;
+}
+.cross2
+{
+	width:35px;
+	height:3px;
+	background:white;
+	margin:auto;
+	position:relative;
+	top:20px;
+}
+.cross
+{
+	width:35px;
+	height:3px;
+	background:white;
+	margin:auto;
+	position:relative;
+	top:23px;
+}
+.add-table:active,.remove-table:active
+{
+	transform:scale(.99);
+}
+
+select::-ms-expand
+{
+	display:none;
+}
+select
+{
+    width:80%;
+	margin:auto;
+	border:none;
+    -webkit-appearance: none;
+    appearance: none;
+	font-size:17px;
+}
+
+select:focus,table tr td input:focus
+{
+	outline-color:black;
+}
+
+table
+{
+	width:100%;
+	margin-bottom:80px;
+}
+table tr td
+{
+	text-align:center;
+	font-size:17px;
+}
+table tr td input
+{
+	width:100%;
+	border:none;
+	font-size:17px;
+}
+#name
+{
+	width:200px;
+}
+
+::-webkit-scrollbar
+{
+	width:0px;
+}
+
+
+
+
+
+
+
+
