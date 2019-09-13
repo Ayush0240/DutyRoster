@@ -186,9 +186,14 @@ select::-ms-expand
 {
 	display:none;
 }
+select option
+{
+	text-align:center;
+}
 select
 {
-    width:50%;
+	text-align:center;
+    width:100%;
 	border:none;
     -webkit-appearance: none;
     appearance: none;
@@ -274,4 +279,8 @@ table tr td input
 .sign
 {
 	display:none;
+}
+.last-row td
+{
+	text-align:center;
 }
