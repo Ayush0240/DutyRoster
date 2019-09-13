@@ -9,13 +9,13 @@
   <link rel="stylesheet" type="text/css" href="files/style.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
  </head>
- <body>
+ <body onbeforeprint="fun()" onafterprint="fun2()">
   <img class="pgi-logo" src="files/pgi.png">
+  
   <div class="wrapper">
    <p class="select-mon">SELECT MONTH</p>
    
    
-   <!-- SELECT MONTHS -->
    <div class="month-con">
     <div class="months">
 	 <div class="mon"><p>JANUARY</p></div>
@@ -42,18 +42,23 @@
 	</div>
    </div>  
    
-    <!-- CONFIRM -->
-   <p class="confirm-mon">duty for the month of <span id="confirm-mon"></span></p>
+   <div class="enter-year">
+    <input class="year" placeholder="Enter Year">
+	<p>Please Enter Year</p>
+   </div>
+   <p class="confirm-mon">duty roster the month of <span id="confirm-mon"></span></p>
+   <!--
    <div class="day28-29">
     <p class="select-day">SELECT DAYS:</p>
     <span class="day28 day-active">28</span>
     <span class="day29 day-active">29</span>
    </div>
+   -->
    <div class="faltu">
 	<button class="confirm-btn">CONFIRM</button>
    </div>
   </div>
- 
+
   
   <p class="head"></p>
   <div class="add-table" title="Add Row">
@@ -64,6 +69,11 @@
    <div class="cross"></div>
   </div>
   
+  <div class="sign">
+   <p>Incharge's Signature:</p>
+  </div>
+  
   <script src="files/java.js"></script>  
+
  </body>
 </html>
