@@ -6,11 +6,11 @@
 body
 {
 	box-sizing:border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Verdana', sans-serif;
 }
 .pgi-logo
 {
-	width:80px;
+	width:70px;
 }
 .wrapper
 {
@@ -24,7 +24,7 @@ body
 }
 .select-mon
 {
-	font-size:25px;
+	font-size:20px;
 	text-align:center;
 	color:white;
 	font-weight:bold;
@@ -48,7 +48,7 @@ body
 {
 	font-size:25px;
 	background:black;
-	color:white;
+	color:blue;
 	margin:10px;
 	padding:5px 0;
 	cursor:pointer;
@@ -60,7 +60,7 @@ body
 .confirm-mon
 {
 	text-align:center;
-	font-size:25px;
+	font-size:20px;
 	color:white;
 	text-transform:uppercase;
 	margin:20px;
@@ -95,7 +95,7 @@ body
 {
 	text-align:center;
 	border:none;
-	font-size:15px;
+	font-size:20px;
 	background:black;
 	color:white;
 	padding:5px;
@@ -112,7 +112,7 @@ body
 .head
 {
 	text-align:center;
-	font-size:25px;
+	font-size:20px;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -162,7 +162,7 @@ body
 .cross2
 {
 	width:35px;
-	height:3px;
+	height:4px;
 	background:white;
 	margin:auto;
 	position:relative;
@@ -202,7 +202,7 @@ select
 
 select:focus,table tr td input:focus
 {
-	outline-color:black;
+	outline-color:blue;
 }
 
 table
@@ -223,7 +223,7 @@ table tr td input
 {
 	width:100%;
 	border:none;
-	font-size:17px;
+	font-size:20px;
 }
 #name
 {
